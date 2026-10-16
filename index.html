@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <title>Luca Mazzola</title>
-  <meta name="description" content="Luca Mazzola — Graphic & Visual Designer. Official portfolio and selected projects.">
+  <meta name="description" content="Luca Mazzola — Graphic & Visual Designer">
   
   <link rel="alternate" hreflang="it" href="https://lucamazzola.ch/it/">
   <link rel="alternate" hreflang="en" href="https://lucamazzola.ch/en/">
@@ -25,8 +25,8 @@
 
   <style>
     body { margin: 0 }
-    body { padding: 40px }
-    body { background-color: #a6a6a6 }
+    body { padding: 20px }
+    body { background-color: #b3b3b3 }
     body { color: #ffffff }
     body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif }
     body { -webkit-font-smoothing: antialiased }
@@ -34,16 +34,59 @@
     h1 { margin: 0 }
     h1 { font-size: 24px }
     h1 { font-weight: 500 }
-    h1 { line-height: 1.4 }
+    h1 { line-height: 1.1 }
     
     p { margin: 0 }
     p { font-size: 24px }
     p { font-weight: 500 }
-    p { line-height: 1.4 }
+    p { line-height: 1.1 }
+    
+    a { color: #ffffff }
+    a { text-decoration: none }
+
+    .cross { position: fixed }
+    .cross { top: 0 }
+    .cross { left: 0 }
+    .cross { width: 100vw }
+    .cross { height: 100vh }
+    .cross { pointer-events: none }
+    .cross { z-index: -1 }
+
+    .line-h { position: absolute }
+    .line-h { top: 50% }
+    .line-h { left: 0 }
+    .line-h { width: 100% }
+    .line-h { height: 2px }
+    .line-h { background-color: #ffffff }
+    .line-h { transform: translateY(-50%) }
+
+    .line-v { position: absolute }
+    .line-v { top: 0 }
+    .line-v { left: 50% }
+    .line-v { width: 2px }
+    .line-v { height: 100% }
+    .line-v { background-color: #ffffff }
+    .line-v { transform: translateX(-50%) }
+    
+    @media (max-width: 768px) {
+      body { padding: 15px }
+      h1 { font-size: 18px }
+      p { font-size: 18px }
+    }
   </style>
 </head>
 <body>
   <h1>Luca Mazzola</h1>
   <p>Visual Designer</p>
+  <p>Switzerland</p>
+  <br>
+  <p><a href="mailto:lucamazzola.ch@gmail.com">Email</a></p>
+  <p><a href="https://instagram.com/archiveluma" target="_blank">Instagram</a></p>
+  <p><a href="https://ch.linkedin.com/in/luca-m-4074572b9" target="_blank">Linkedin</a></p>
+
+  <div class="cross">
+    <div class="line-h"></div>
+    <div class="line-v"></div>
+  </div>
 </body>
 </html>
