@@ -145,3 +145,5 @@ vite.config.ts.timestamp-*
 assets/.DS_Store
 assets/.DS_Store
 assets/.DS_Store
+assets/imgs/.DS_Store
+assets/.DS_Store
